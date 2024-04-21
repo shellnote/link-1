@@ -1,0 +1,108 @@
+.wrapper{
+    max-width: 480px;
+    height: auto;
+    /* 左右の余白を自動で幅を合わせる 中央に寄せる */
+    margin: 0 auto;
+    background-image: url(bg.jpg);
+   
+    /* 画像を常に天地左右の中央に配置 */
+    background-position: center center;
+    /* 画像をタイル状に繰り返し表示しない */
+    background-repeat: repeat;
+}
+
+.icon{
+    display: block;
+    text-align: center;
+    padding-top: 30px;
+}
+
+
+.icon img{
+    width: 120px;
+    height:120px;
+    /* トリミング */
+    object-fit: cover; 
+    border-radius: 50%;
+    /* border: solid 0.5px #777777; */
+}
+.sns{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.sns img{
+    width: 70%;
+}
+
+li{
+    list-style: none;
+}
+
+.tab img{
+    margin: auto 10px;
+    width: 50px;
+    height: 50px;
+}
+.tab{
+    display: flex;
+    margin: 20px 40px;
+    background-color: white;
+    border-radius: 8px;
+    border: solid 0.3px black;
+    height: 70px;
+}
+
+.tab_text {
+    color: black;
+    height:60px;
+    justify-content: center;
+    align-items: center;
+    margin-top: auto;
+    margin-left: 10px;
+}
+
+.wrapper .footer img{
+    display: block;
+    text-align: center;
+    width: 90%;
+    margin: 20px auto 0px auto
+}
+.wrapper .footer p{
+    display: block;
+    text-align: center;
+    margin: 5px auto;
+    background-color: white;
+    border-radius: 5px;
+    width: 90%;
+}
+
+.wrapper .visual {
+    display: flex;
+    width: 100%;
+    margin: 20px auto 0px auto
+}
+.wrapper .visual img{
+    width: 145px;
+    height: 175px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    margin: 0px auto;
+    margin-left: 15px;
+}
+.wrapper .visual p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    margin: 3% auto 30px auto;
+    margin-left: 15px;
+    background-color: white;
+    border-radius: 5px;
+}
+.copy{
+    text-align: center;
+    font-size: 15px
+}
