@@ -11,6 +11,14 @@
     background-repeat: repeat;
 }
 
+.m-plus-1p-regular .title {
+    font-family: "M PLUS 1p", serif;
+    font-weight: 800;
+    font-style: bold;
+
+  }
+  
+
 .icon{
     display: block;
     text-align: center;
@@ -30,6 +38,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    padding: 30px 0;
 }
 .sns img{
     width: 70%;
@@ -60,6 +69,10 @@ li{
     align-items: center;
     margin-top: auto;
     margin-left: 10px;
+}
+.title{
+    font-size: large;
+    font-family: 'Courier New', Courier, monospace;
 }
 
 .wrapper .footer img{
